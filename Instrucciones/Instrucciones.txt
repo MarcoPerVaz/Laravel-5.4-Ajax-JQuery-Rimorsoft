@@ -4,7 +4,7 @@ Instalación Proyecto Laravel-5.4-Ajax-JQuery-Rimorsoft con Laravel 5.4
     -composer create-project --prefer-dist laravel/laravel Laravel-5.4-Ajax-JQuery "5.4.*"
   Desde Github
     -Se clona el proyecto 
-      -git clone 
+      -git clone https://github.com/MarcoPerVaz/Laravel-5.4-Ajax-JQuery-Rimorsoft.git
     -Se copia el archivo .env.example y se le cambia el nombre por .env
       -Se edita el archivo .env
     -Se usa el comando composer install para instalar las dependencias de php
@@ -90,6 +90,6 @@ Vídeo 7 - Commit e01b7e9 - Implementación de Ajax con JQuery
           ],
   -Se crea el archivo script.js que guardará el javascript(ajax) que se use
   -Se modifica la vista layouts/app.blade.php para agregar un @yield para el script script.js
-Commit - Modificando .gitignore
+Commit a7fd4eb - Modificando .gitignore
   -Se quita la carpeta Instrucciones del archivo .gitignore
 Fin
